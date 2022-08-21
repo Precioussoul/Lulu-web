@@ -540,6 +540,12 @@ h6 {
   text-justify: inter-word;
 }
 
+.signature {
+  flex-wrap: wrap;
+  font-size: 1rem;
+  list-style: none;
+}
+
 /* ###################### privacy-policy & terms and condition - page 3 & 4 ###################### */
 
 .privacy-policy-section,
@@ -635,6 +641,10 @@ h6 {
   overflow: hidden !important;
 }
 
+.footer-nav-item {
+  padding-bottom: 0.5rem;
+}
+
 /*######################### responsiveness   #################################### */
 @media (max-width: 575px) {
   .showcase-grid,
@@ -718,8 +728,28 @@ h6 {
     visibility: hidden;
   }
 
+  .about-text,
+  .how-it-work-text {
+    padding-bottom: 1.5rem;
+    line-height: 2;
+    text-align: left;
+    text-justify: inter-word;
+  }
+
+  .privacy-policy-text,
+  .terms_and_condition-text {
+    line-height: 2;
+    text-align: left;
+    text-justify: distribute;
+  }
+
   .roadmap-detail-item {
     width: 100%;
+    font-size: 0.8rem;
+    height: 140px;
+    line-height: 1.5;
+    grid-template-columns: 30% 65%;
+    grid-gap: 5%;
   }
   .translate-image,
   .translate-image__2,
