@@ -1,7 +1,7 @@
 const words = [
   "Igbo",
   "Yoruba",
-  "Swalihi",
+  "Swahili",
   "Banso",
   "Hausa",
   "Nupe",
