@@ -2,12 +2,10 @@ const words = [
   "Igbo",
   "Yoruba",
   "Swalihi",
-  "Afrikaans",
-  "Bini",
+  "Banso",
   "Hausa",
-  "Panso",
-  "Fula",
-  "Arabic",
+  "Nupe",
+  "Itsekiri",
 ];
 let count = 0;
 let title = "";
